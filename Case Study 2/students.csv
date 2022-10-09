@@ -1,0 +1,6 @@
+Student_Id, Name, Gender, DateOfBirth, City, State, EmailId, Qualificaton, Stream
+1, Raj, Male, 10-10-1995, Mumbai, Maharashtra, raj@gmail.com, B.E, Electronics
+2, Priyanka, Female, 20-10-1995, Pune, Maharashtra, priyanka@gmail.com, B.Tech, IT
+3,Puja,Female,11-11-1995,Nagpur,Maharashtra,puja@gmail.com,B.E.,CO
+4,deepak,Male,03-03-1994,Mumbai,Maharashtra,dv@gmail.com,B.E.,Civil
+6,Shubham,Male,12-06-1998,Kolkata,"West Bangal",shub@gmail.com,Diploma,EX

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Students</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main" >
+		<h2>Student Registration</h2>
+		<p>Enter the below required details and submit</p>
+	<div class="forms">	
+		<form action="add-students.php" method="POST" name="add_student">
+			<label>Student Id</label>			<br>
+				<input type="text" name="stid">		<br>
+	
+			<label>Student Name</label>			<br>
+				<input type="text" name="name">		<br>
+
+			<label>Gender</label><br>
+				<input type="radio" name="gender" value="Female">Female <br>	
+				<input type="radio" name="gender" value="Male">Male <br>
+
+			<label>Date of Birth</label>		<br>
+				<input type="date" name="dob">		<br>
+	
+			<label>City</label><br>	
+				<input type="text" name="city">		<br>
+
+			<label>State</label><br>	
+				<input type="text" name="state">	<br>
+
+			<label>Email Id</label><br>	
+				<input type="text" name="email">	<br>	
+	
+			<label>Qualification</label><br>	
+				<input type="text" name="qualific">	<br>
+					
+			<label>Stream</label><br>	
+				<input type="text" name="stream">	<br><br>	
+				
+				<input type="submit" name="Submit">
+		</form>
+	</div>
+	</div>
+</body>
+</html>  
