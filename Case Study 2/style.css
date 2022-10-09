@@ -1,0 +1,123 @@
+body{
+	padding: 0%;
+	margin: 0%;
+	background-color: #F2F2F2; 
+}
+
+nav	{
+	box-sizing:border-box;
+	/*border: 1px solid #06425C;*/
+	color:#06425C;
+	background-color:#FFFFFF;
+	background-image: linear-gradient(to right,#040406,#333c44,#050507);
+	overflow: auto;
+	padding-left:23%;
+
+}
+
+nav a{
+	box-sizing:border-box;
+	display:inline-block;
+	width: 20%;
+	color: #FFFFFF;
+	background-image: linear-gradient(to right,#040406,#333c44,#050507);
+	text-decoration: none;
+	margin:1% 5% 1% 0;
+	padding:1% 5%;
+	border-radius: 25px;
+	text-align: center;
+	font-family: serif,"Times New Roman";
+}
+.div_top {
+	background: #0ea07b;
+	border: 1px solid black;
+	padding: 0,0,1%;
+}
+
+.div_bottom img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.main{
+	background:#F2F2F2;
+	width: 420px;
+	height: 620px;
+	margin-left: 35%;
+}
+.forms{
+	margin-left: 10px;
+}
+.forms label{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.forms input[type=text]	{
+	line-height: 10px;
+	width: 70%;
+	margin-bottom: 15px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 10px;	
+}
+.forms input[type=date]{
+	line-height: 10px;
+	width: 70%;
+	margin-bottom: 15px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 10px;
+}
+.forms input[type=submit]{
+	padding:10px 20px;
+	background: linear-gradient(to right,#040406,#333c44,#050507) ;
+	border:1px solid rgb(59, 110, 34);
+	border-radius: 5px;
+	font-size: 25px;
+	color:#fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 30%;
+	height: 20%;
+	margin-left: 24%; 		
+}
+table {
+    padding: 2%;
+    margin: 0;
+    line-height: 30px;
+    width: 59%;
+    padding-bottom: 3%;
+}
+	tr td {
+	  background-color:#e4f5d4;
+	  font-family:Serif,Monospace;
+	  font-size:100%;
+	  padding:1%;
+	  opacity :0.6;
+	}
+	tr th {
+	   background-image: linear-gradient(#9cbd5d, 	#92a151);
+	   color:#ffffff;
+	  padding:1%;
+	   border-radius: 2px 2px 0 0;
+	   border-bottom: 2px solid #a3c250;
+	  font-family:"Times New Roman",Serif;
+	  font-variant: small-caps;
+	  font-size:100%;
+	  line-height:120%;
+	}
+tbody>tr>:first-child{
+ text-align:left;
+}
+tbody>tr>:nth-child(2){
+ text-align:center;
+}
+tbody>tr>:nth-child(3){
+ text-align:center;
+}
+tr:hover{
+  line-height:40px;
+  opacity :1;
+  font-weight:bold;
+}
